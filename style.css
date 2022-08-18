@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto+Condensed&display=swap');
+
+
+body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background: #222;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 120px;
+          background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
+      }
+
+
+.card {
+          background:#000000;
+          padding: 1.8rem;
+          border-radius: 18px;
+          width: 100%;
+          max-width: 420px;
+          margin: 2rem;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-size: 13px;
+          color: #ffff;
+          opacity: 0.76;
+
+      }
+
+
+      .temp {
+          font-size: 30px;
+          padding-bottom: 0.4rem;
+      }
+      
+      h2.city {
+          font-size: 30px;
+          padding-bottom: 0px;
+          margin-bottom: 1rem;
+      }      
+
+      .search {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      input.search-bar {
+          border: none;
+          outline: none;
+          border-radius: 2px;
+          margin-right: 2px;
+          padding: 4.98px;
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+      }
+      
+      button {
+          border: none;
+          outline: none;
+          border-radius: 2px;
+          margin-left: 2px;
+          padding: 3px;
+      }
+      
+      i.fas.fa-search {
+          padding: 3px;
+      }
+      
+      .padd {
+          padding: 2px 0px;
+      }
+      
+      button:hover{
+          background-color: rgb(115, 115, 115);
+      }
+
+      i:hover{
+          color: #ffff;
+      }
+      .description{
+          text-transform: capitalize; 
+          margin-left: 8px;    
+      }
+
+      .flex{
+          display: flex;
+          align-items: center;
+      }
